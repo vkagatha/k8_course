@@ -2,12 +2,13 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: hanap-rs
+  labels:
+    test: myapp
 spec:
   replicas: 2
   selector: 
     matchLabels:
       test: myapp
-
   template:
     metadata:
       labels:
