@@ -4,7 +4,7 @@ metadata:
   name: mysql-pod
   labels:
     app: mysql
-  
+specs:
   containers:
   - name: mysql-pod
     image: supergiantkir/animals:bear
