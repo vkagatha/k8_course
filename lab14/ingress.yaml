@@ -11,9 +11,9 @@ spec:
     http:
       paths:
       - backend:
-          service:
-            name: bear-svc
-            port:
-              number: 80
-        path: /
-        pathType: Prefix
+        service:
+          name: bear-svc
+          port:
+            number: 80
+      path: /
+      pathType: Prefix
