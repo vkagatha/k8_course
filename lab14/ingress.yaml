@@ -10,10 +10,10 @@ spec:
   - host: "bear.52.214.225.250.nip.io"
     http:
       paths:
-      - path: /
-        pathType: Prefix
-        - backend:
+      - backend:
           service:
             name: bear-svc
             port:
               number: 80
+        path: /
+        pathType: Prefix
