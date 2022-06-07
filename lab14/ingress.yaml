@@ -16,13 +16,3 @@ spec:
               number: 80
         path: /
         pathType: Prefix
-  - host: moose.52.214.225.250.nip.io
-    http:
-      paths:
-      - backend:
-          service:
-            name: moose-svc
-            port:
-              number: 80
-        path: /
-        pathType: Prefix
