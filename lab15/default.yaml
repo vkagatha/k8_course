@@ -4,7 +4,7 @@ metadata:
   name: default-ing
 spec:
   defaultBackend:
-    service:
-      name: httpd
-      port:
-        number: 80
+    resource:
+      apiGroup: k8s.example.com
+      kind: StorageBucket
+      name: icon-assets
